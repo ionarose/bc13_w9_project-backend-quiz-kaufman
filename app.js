@@ -15,6 +15,8 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use("/api/topics", topicsRouter)
 app.use("/api/questions", questionsRouter)
-
+app.get('/', (req, res) => {
+    res.send('GET request to the homepage')
+  })
 
 export default app;

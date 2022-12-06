@@ -7,19 +7,7 @@
     "dev": "nodemon -r dotenv/config app.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --setupFiles dotenv/config  --forceExit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SchoolOfCode/bc13_w9_project-backend-quiz-kaufman.git"
-  },
-  "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SchoolOfCode/bc13_w9_project-backend-quiz-kaufman/issues"
-  },
-  "homepage": "https://github.com/SchoolOfCode/bc13_w9_project-backend-quiz-kaufman#readme",
-  "description": "Quiz Kaufman App",
+  
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
