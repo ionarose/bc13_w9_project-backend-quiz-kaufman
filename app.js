@@ -19,4 +19,10 @@ app.get('/', (req, res) => {
     res.send('GET request to the homepage')
   })
 
+  const PORT = 4000;
+  
+  app.listen(PORT, function () {
+      console.log(`Server is running on port ${PORT}`);
+    });
+
 export default app;
