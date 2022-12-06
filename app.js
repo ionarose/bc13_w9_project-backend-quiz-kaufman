@@ -4,7 +4,7 @@ import cors from "cors";
 import questionsRouter from "./routes/questions.js"
 import topicsRouter from "./routes/topics.js"
 const app = express();
-const PORT = 4000;
+//const PORT = 4000;
 //  var corsOptions = {
 //   origin: 'http://localhost:3000',
 //   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
